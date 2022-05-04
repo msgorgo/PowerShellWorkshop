@@ -1,3 +1,4 @@
+# Needed for Powershell Download
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 $uri = 'https://github.com/PowerShell/PowerShell/releases/download/v7.2.3/PowerShell-7.2.3-win-x64.msi'
 $outFile = $uri.Split("/")[-1]
